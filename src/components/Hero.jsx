@@ -9,7 +9,7 @@ import image3 from "../assets/3.jpg";
 const Hero = () => {
   return (
     <div className="text-white relative">
-      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+      <div className="max-w-[800px] w-full mx-auto text-center flex flex-col justify-center">
         <h1 className="md:text-7m sm:text-6xl text-4xl font-bold md:py-6">
           Expand Your Experiences
         </h1>
@@ -55,7 +55,7 @@ const Hero = () => {
           Get Started
         </button>
       </div>
-      <div className="absolute bottom-10 w-full flex justify-center">
+      <div className=" py-8 bottom-10 w-full flex justify-center">
         <Footer />
       </div>
     </div>
