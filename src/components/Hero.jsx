@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="text-white relative">
       <div className="max-w-[800px] w-full mx-auto text-center flex flex-col justify-center">
-        <h1 className="md:text-7m sm:text-6xl text-4xl font-bold md:py-6">
+        <h1 className="md:text-7m sm:text-6xl text-4xl font-bold md:py-6 px-1">
           Expand Your Experiences
         </h1>
 
